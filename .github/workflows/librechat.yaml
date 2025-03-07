@@ -1653,27 +1653,3 @@ endpoints:
       forcePrompt: false
       modelDisplayLabel: "Grok"
 
-      interface:
-  privacyPolicy:
-
-    openNewTab: true
-  termsOfService:
-    externalUrl:
-    openNewTab: true
-    modalAcceptance: true
-    modalTitle: "Terms of Service"
-    modalContent: |
-      # Terms of Service
-      ## Introduction
-      Welcome to LibreChat!
-  endpointsMenu: true
-  modelSelect: false
-  parameters: true
-  sidePanel: true
-  presets: false
-  prompts: true
-  bookmarks: true
-  multiConvo: true
-  agents: true
-  customWelcome: "Welcome to LibreChat!"
-  runCode: true
