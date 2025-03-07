@@ -2,6 +2,27 @@ version: 1.2.1
 
 cache: true
 
+interface:
+  # Privacy policy settings
+  privacyPolicy:
+    externalUrl: 'https://librechat.ai/privacy-policy'
+    openNewTab: true
+ 
+  # Terms of service
+  termsOfService:
+    externalUrl: 'https://librechat.ai/tos'
+    openNewTab: true
+  endpointsMenu: true
+  modelSelect: false
+  parameters: true
+  sidePanel: true
+  presets: false
+  prompts: true
+  bookmarks: true
+  multiConvo: true
+  agents: true
+  runCode: true
+
 registration:
   socialLogins:
     - "discord"
