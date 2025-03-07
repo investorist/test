@@ -13,10 +13,10 @@ interface:
     externalUrl: 'https://librechat.ai/tos'
     openNewTab: true
   endpointsMenu: true
-  modelSelect: false
+  modelSelect: true
   parameters: true
   sidePanel: true
-  presets: false
+  presets: true
   prompts: true
   bookmarks: true
   multiConvo: true
